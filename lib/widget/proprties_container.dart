@@ -18,11 +18,11 @@ class Properties extends StatelessWidget {
                 Icons.water,
                 size: 29,
               ),
-              Text("Water Proof",
-                  style: TextStyle(fontSize: 10, color: Colors.grey)),
               SizedBox(
                 height: 5,
-              )
+              ),
+              Text("Water Proof",
+                  style: TextStyle(fontSize: 10, color: Colors.grey)),
             ]));
   }
 }
@@ -43,11 +43,11 @@ class Properties2 extends StatelessWidget {
                 Icons.bluetooth,
                 size: 29,
               ),
-              Text("Bluetooth",
-                  style: TextStyle(fontSize: 10, color: Colors.grey)),
               SizedBox(
                 height: 5,
-              )
+              ),
+              Text("Bluetooth",
+                  style: TextStyle(fontSize: 10, color: Colors.grey)),
             ]));
   }
 }
@@ -65,11 +65,11 @@ class Properties3 extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             children: const [
               Icon(Icons.touch_app, size: 29),
-              Text("Touch Screen",
-                  style: TextStyle(fontSize: 10, color: Colors.grey)),
               SizedBox(
                 height: 5,
-              )
+              ),
+              Text("Touch Screen",
+                  style: TextStyle(fontSize: 10, color: Colors.grey)),
             ]));
   }
 }
@@ -80,7 +80,7 @@ class Purchase extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-        // height: MediaQuery.of(context).size.height,
+        height: MediaQuery.of(context).size.height - 627,
         padding: const EdgeInsets.all(30),
         decoration: const BoxDecoration(
             color: Colors.white,
